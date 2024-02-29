@@ -59,7 +59,7 @@ func Run(args []string) error {
 			return err
 		}
 	default:
-		return makeError(fmt.Sprintf("Usage: %s file [file]", args[0]))
+		return makeError(fmt.Sprintf("Usage: %s header [source]", args[0]))
 	}
 	return nil
 }
